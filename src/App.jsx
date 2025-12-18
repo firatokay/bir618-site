@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Menu, X } from 'lucide-react';
 
 const App = () => {
   const [language, setLanguage] = useState('en');
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -228,6 +229,7 @@ const App = () => {
               <img src="/logo.png" alt="Bir618" className="h-8" />
             </a>
 
+            {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-10">
               <a href="#home" className="text-sm font-light tracking-wide hover:opacity-70 transition-opacity">
                 {t.nav.home}
@@ -250,14 +252,61 @@ const App = () => {
               </button>
             </div>
 
+            {/* Mobile Menu Button */}
             <button
-              onClick={() => setLanguage(language === 'en' ? 'tr' : 'en')}
-              className="md:hidden text-sm font-light tracking-wide"
+              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+              className="md:hidden p-2"
+              aria-label="Toggle menu"
             >
-              {language === 'en' ? 'TR' : 'EN'}
+              {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
         </div>
+
+        {/* Mobile Menu */}
+        {mobileMenuOpen && (
+          <div className="md:hidden bg-white border-t border-gray-200">
+            <div className="max-w-6xl mx-auto px-6 py-4 space-y-4">
+              <a
+                href="#home"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-sm font-light tracking-wide hover:opacity-70 transition-opacity py-2"
+              >
+                {t.nav.home}
+              </a>
+              <a
+                href="#services"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-sm font-light tracking-wide hover:opacity-70 transition-opacity py-2"
+              >
+                {t.nav.services}
+              </a>
+              <a
+                href="#approach"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-sm font-light tracking-wide hover:opacity-70 transition-opacity py-2"
+              >
+                {t.nav.approach}
+              </a>
+              <a
+                href="#connect"
+                onClick={() => setMobileMenuOpen(false)}
+                className="block text-sm font-light tracking-wide hover:opacity-70 transition-opacity py-2"
+              >
+                {t.nav.connect}
+              </a>
+              <button
+                onClick={() => {
+                  setLanguage(language === 'en' ? 'tr' : 'en');
+                  setMobileMenuOpen(false);
+                }}
+                className="block text-sm font-light tracking-wide hover:opacity-70 transition-opacity py-2 border-t border-gray-200 pt-4 w-full text-left"
+              >
+                {language === 'en' ? 'TR' : 'EN'}
+              </button>
+            </div>
+          </div>
+        )}
       </nav>
 
       {/* Hero Section */}
