@@ -44,7 +44,6 @@ const App = () => {
         p6: 'We often invest more energy in our clients\' transformations than in growing our own business.',
         p7: 'Maybe that\'s not conventional, but since 2007, our work has been filled with purpose, challenging problems to solve, and meaningful progress, both for the organizations we serve and ourselves.',
         p8: 'If you\'ve read this far, thank you. And if we haven\'t connected yet, we\'d welcome the conversation.',
-        p9: 'Hopefully, one day, we can meet over Turkish coffee at one of Istanbul\'s historic cafés.',
         signature: 'With respect,'
       },
       approach: {
@@ -108,11 +107,9 @@ const App = () => {
       cta: {
         title: 'Let\'s Talk',
         description: 'If you\'re facing IT service challenges or considering a transformation journey, we\'d welcome the conversation.',
-        email: 'Connect via Email',
-        location: 'Istanbul, Turkey'
+        email: 'Connect via Email'
       },
       footer: {
-        location: 'Istanbul, Turkey',
         copyright: '© 2025 Bir618 Consulting.',
         trademark: 'ITIL® is a registered trademark of AXELOS Limited. COBIT® is a registered trademark of ISACA.'
       }
@@ -147,7 +144,6 @@ const App = () => {
         p6: 'Genellikle müşterilerimizin dönüşümlerine kendi işimizi büyütmekten daha fazla enerji yatırıyoruz.',
         p7: 'Belki bu geleneksel değil, ama 2007\'den beri çalışmamız anlam, çözülecek zorlayıcı problemler ve hem hizmet verdiğimiz kuruluşlar hem de kendimiz için anlamlı ilerleme ile dolu.',
         p8: 'Buraya kadar okuduysanız, teşekkür ederiz. Ve henüz bağlantı kurmadıysak, konuşmayı memnuniyetle karşılarız.',
-        p9: 'Umarım bir gün, İstanbul\'un tarihi kafelerinden birinde Türk kahvesi eşliğinde buluşabiliriz.',
         signature: 'Saygılarımızla,'
       },
       approach: {
@@ -211,11 +207,9 @@ const App = () => {
       cta: {
         title: 'Konuşalım',
         description: 'BT hizmet zorlukları yaşıyorsanız veya bir dönüşüm yolculuğu düşünüyorsanız, konuşmayı memnuniyetle karşılarız.',
-        email: 'E-posta ile Bağlantı Kur',
-        location: 'İstanbul, Türkiye'
+        email: 'E-posta ile Bağlantı Kur'
       },
       footer: {
-        location: 'İstanbul, Türkiye',
         copyright: '© 2025 Bir618 Danışmanlık.',
         trademark: 'ITIL® AXELOS Limited\'in tescilli markasıdır. COBIT® ISACA\'nın tescilli markasıdır.'
       }
@@ -230,8 +224,8 @@ const App = () => {
       <nav className={`fixed w-full z-50 transition-all duration-500 ${scrolled ? 'bg-white shadow-sm' : 'bg-transparent'}`}>
         <div className="max-w-6xl mx-auto px-6 lg:px-12">
           <div className="flex justify-between items-center h-20">
-            <a href="/" className="text-2xl font-light tracking-tight hover:opacity-70 transition-opacity">
-              Bir618
+            <a href="/" className="hover:opacity-70 transition-opacity">
+              <img src="/logo.png" alt="Bir618" className="h-8" />
             </a>
 
             <div className="hidden md:flex items-center space-x-10">
@@ -324,7 +318,6 @@ const App = () => {
             <p>{t.note.p6}</p>
             <p>{t.note.p7}</p>
             <p>{t.note.p8}</p>
-            <p>{t.note.p9}</p>
           </div>
 
           <div className="pt-8 space-y-2">
@@ -478,10 +471,6 @@ const App = () => {
       <footer className="py-12 px-6 lg:px-12 border-t border-gray-200">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="text-center md:text-left">
-              <p className="text-sm font-light text-gray-600">{t.footer.location}</p>
-            </div>
-
             <div className="flex items-center space-x-8">
               <a href="https://www.linkedin.com/company/bir618" target="_blank" rel="noopener noreferrer" className="text-sm font-light text-gray-600 hover:text-gray-900 transition-colors">
                 LinkedIn
