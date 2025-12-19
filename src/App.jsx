@@ -23,9 +23,9 @@ const App = () => {
         connect: 'Connect'
       },
       hero: {
-        line1: 'Consultancy.',
-        line2: 'Strategy.',
-        line3: 'Excellence.',
+        line1: 'Govern.',
+        line2: 'Manage.',
+        line3: 'Deliver.',
         tagline: 'Guiding Organizations Through IT Transformation.',
         description: 'We help IT organizations find clarity, build service excellence, and transform with confidence.',
         subdesc: 'Whether defining IT service strategy, implementing ITSM frameworks, or building capable teams, our work is about guiding organizations through their most critical transformation moments.'
@@ -37,14 +37,14 @@ const App = () => {
       },
       note: {
         title: 'A Note from Us:',
-        p1: 'After spending two decades building IT service capabilities for leading organizations across Turkey and Europe, we founded Bir618 in 2007 with a simple belief: IT services should enable business success, not hinder it.',
-        p2: 'On that day, we didn\'t know exactly where this journey would take us. What we did know was our passion for service excellence and our desire to work with organizations that truly want to transform.',
-        p3: 'Maybe it\'s the power of genuine partnerships, but our path has always aligned with remarkable teams and challenging transformation journeys.',
-        p4: 'Even the organizations we no longer work with remain a special part of our story, and we continue to care deeply about their success.',
-        p5: 'We hesitate to call ourselves just \'consultants\' because, in truth, we become part of the teams we work with. We don\'t just advise from the sidelines. We design service strategies, build ITSM capabilities, and guide implementation. And when needed, we work alongside teams in their daily operations.',
-        p6: 'We often invest more energy in our clients\' transformations than in growing our own business.',
-        p7: 'Maybe that\'s not conventional, but since 2007, our work has been filled with purpose, challenging problems to solve, and meaningful progress, both for the organizations we serve and ourselves.',
-        p8: 'If you\'ve read this far, thank you. And if we haven\'t connected yet, we\'d welcome the conversation.',
+        p1: 'We established Bir618 in 2007, after twenty years of helping organizations across Turkey and Europe build strong IT service foundations. Our starting point was straightforward: technology exists to support business objectives, not complicate them.',
+        p2: 'When we began, we couldn\'t predict where this path would lead. But we were certain about two things: our commitment to service quality and our choice to partner with organizations ready for real change.',
+        p3: 'Perhaps it\'s because we value authentic collaboration, but we\'ve consistently found ourselves working with exceptional teams on complex, meaningful transformations.',
+        p4: 'The organizations from our past projects still matter to us. We remain invested in their continued success, even when our formal engagement has ended.',
+        p5: 'The label \'consultant\' feels incomplete for what we do. We integrate with your teams rather than observe from a distance. Our work includes designing service frameworks, establishing ITSM practices, and steering implementations. When circumstances require it, we\'re present in the day-to-day work.',
+        p6: 'Truth be told, we dedicate more resources to our clients\' success than to expanding our own footprint.',
+        p7: 'This approach may not follow traditional business wisdom, yet since 2007, our work has given us exactly what we value: meaningful challenges, substantive progress, and genuine impact for both our partners and ourselves.',
+        p8: 'We appreciate you taking the time to read this. If our paths haven\'t crossed yet, we\'re open to that conversation.',
         signature: 'With respect,'
       },
       approach: {
@@ -123,9 +123,9 @@ const App = () => {
         connect: 'İletişim'
       },
       hero: {
-        line1: 'Danışmanlık.',
-        line2: 'Strateji.',
-        line3: 'Mükemmellik.',
+        line1: 'Yönet.',
+        line2: 'İdare Et.',
+        line3: 'Ulaştır.',
         tagline: 'Kuruluşları BT Dönüşümü Yolunda Yönlendiriyoruz.',
         description: 'BT organizasyonlarının netlik bulmasına, hizmet mükemmeliyeti inşa etmesine ve güvenle dönüşmesine yardımcı oluyoruz.',
         subdesc: 'BT hizmet stratejisi tanımlamadan, ITSM çerçevelerini uygulamaya veya yetenekli ekipler kurmaya kadar, işimiz organizasyonları en kritik dönüşüm anlarında yönlendirmekle ilgili.'
@@ -137,14 +137,14 @@ const App = () => {
       },
       note: {
         title: 'Bizden Bir Not:',
-        p1: 'Türkiye ve Avrupa\'daki önde gelen kuruluşlar için yirmi yılımızı BT hizmet yetenekleri inşa ederek geçirdikten sonra, 2007\'de Bir618\'i basit bir inançla kurduk: BT hizmetleri iş başarısını engellemek değil, desteklemek için var olmalı.',
-        p2: 'O gün, bu yolculuğun bizi nereye götüreceğini tam olarak bilmiyorduk. Bildiğimiz şey, hizmet mükemmeliyetine olan tutkumuz ve gerçekten dönüşmek isteyen kuruluşlarla çalışma arzumuzdu.',
-        p3: 'Belki de gerçek ortaklıkların gücüdür, ama yolumuz her zaman olağanüstü ekipler ve zorlayıcı dönüşüm yolculuklarıyla kesişti.',
-        p4: 'Artık birlikte çalışmadığımız kuruluşlar bile hikayemizin özel bir parçası olmaya devam ediyor ve başarılarını derinden önemsemeye devam ediyoruz.',
-        p5: 'Kendimize sadece \'danışman\' demekten çekiniyoruz çünkü aslında birlikte çalıştığımız ekiplerin bir parçası oluyoruz. Sadece kenarda tavsiye vermiyoruz. Hizmet stratejileri tasarlıyor, ITSM yetenekleri inşa ediyor ve uygulamayı yönlendiriyoruz. Gerektiğinde ekiplerle günlük operasyonlarında yan yana çalışıyoruz.',
-        p6: 'Genellikle müşterilerimizin dönüşümlerine kendi işimizi büyütmekten daha fazla enerji yatırıyoruz.',
-        p7: 'Belki bu geleneksel değil, ama 2007\'den beri çalışmamız anlam, çözülecek zorlayıcı problemler ve hem hizmet verdiğimiz kuruluşlar hem de kendimiz için anlamlı ilerleme ile dolu.',
-        p8: 'Buraya kadar okuduysanız, teşekkür ederiz. Ve henüz bağlantı kurmadıysak, konuşmayı memnuniyetle karşılarız.',
+        p1: 'Bir618\'i 2007\'de, Türkiye ve Avrupa genelinde organizasyonlara güçlü BT hizmet temelleri kurmaya yardımcı olduğumuz yirmi yılın ardından kurduk. Başlangıç noktamız açıktı: teknoloji iş hedeflerini desteklemek için var, karmaşıklaştırmak için değil.',
+        p2: 'Başladığımızda bu yolun bizi nereye götüreceğini bilemezdik. Ancak iki konuda emindik: hizmet kalitesine olan bağlılığımız ve gerçek değişime hazır organizasyonlarla çalışma tercihimiz.',
+        p3: 'Belki de özgün işbirliğine verdiğimiz değerden dolayıdır, ama kendimizi sürekli olarak istisnai ekiplerle karmaşık ve anlamlı dönüşümler üzerinde çalışırken bulduk.',
+        p4: 'Geçmiş projelerimizden organizasyonlar bizim için hala önemli. Resmi bağlantımız sona ermiş olsa bile başarılarına yatırım yapmaya devam ediyoruz.',
+        p5: '\'Danışman\' etiketi yaptığımız işi tam olarak tanımlamıyor. Uzaktan gözlemlemek yerine ekiplerinizle bütünleşiyoruz. Çalışmamız hizmet çerçevelerini tasarlamayı, ITSM uygulamalarını oluşturmayı ve implementasyonları yönlendirmeyi içeriyor. Koşullar gerektirdiğinde günlük işlerin içindeyiz.',
+        p6: 'Doğrusunu söylemek gerekirse, müşterilerimizin başarısına kendi büyümemizden daha fazla kaynak ayırıyoruz.',
+        p7: 'Bu yaklaşım geleneksel iş mantığını takip etmeyebilir, ancak 2007\'den bu yana çalışmamız bize tam olarak değer verdiğimiz şeyleri verdi: anlamlı zorluklar, somut ilerleme ve hem ortaklarımız hem de kendimiz için gerçek etki.',
+        p8: 'Bunu okumak için zaman ayırdığınız için teşekkür ederiz. Yollarımız henüz kesişmediyse, o konuşmaya açığız.',
         signature: 'Saygılarımızla,'
       },
       approach: {
