@@ -53,24 +53,32 @@ const App = () => {
         focus: 'We work with a select number of organizations at a time, ensuring each one receives the depth of attention and expertise it deserves. This focused approach allows us to go deeper, delivering work that\'s thoughtful, strategic, and built to last.',
         principles: [
           {
-            title: 'Strategy First, Always.',
-            description: 'Every engagement begins with understanding your business context and defining the service strategy. Because strategy is the foundation for sustainable transformation.'
+            title: 'Focus on Value.',
+            description: 'Every decision and activity must contribute to value creation. We help you identify what truly matters to your stakeholders and align service delivery accordingly.'
           },
           {
-            title: 'Partners, Not Clients.',
-            description: 'We don\'t just work for organizations — we work with them. Our role is to be trusted advisors, bringing collaborative expertise to every transformation.'
+            title: 'Start Where You Are.',
+            description: 'Build on what already exists rather than starting from scratch. We assess your current capabilities and leverage them as the foundation for improvement.'
           },
           {
-            title: 'Practical, Not Theoretical.',
-            description: 'ITIL and COBIT are frameworks, not rulebooks. We adapt best practices to your reality, focusing on what will actually work in your environment.'
+            title: 'Progress Iteratively with Feedback.',
+            description: 'Transformation happens through incremental steps, not big-bang approaches. We break complex changes into manageable iterations, learning and adapting along the way.'
           },
           {
-            title: 'Simplicity with Depth.',
-            description: 'The best service designs are elegant and focused. We provide clear, actionable guidance grounded in years of implementation experience.'
+            title: 'Collaborate and Promote Visibility.',
+            description: 'Success requires engagement across the organization. We work transparently with your teams, ensuring everyone understands the why, the how, and the progress being made.'
           },
           {
-            title: 'Open, Honest Dialogue.',
-            description: 'IT leaders rarely get unfiltered perspectives from their teams. We provide candid insights, free from internal politics and organizational bias.'
+            title: 'Think and Work Holistically.',
+            description: 'Services don\'t exist in isolation. We consider the full context — people, processes, technology, and partners — to ensure changes work within your ecosystem.'
+          },
+          {
+            title: 'Keep It Simple and Practical.',
+            description: 'Complexity is the enemy of adoption. We design solutions that are straightforward to understand, implement, and sustain without unnecessary overhead.'
+          },
+          {
+            title: 'Optimize and Automate.',
+            description: 'Work smarter, not harder. We identify opportunities to eliminate waste, streamline processes, and leverage automation where it adds genuine value.'
           }
         ]
       },
@@ -153,24 +161,32 @@ const App = () => {
         focus: 'Aynı anda seçkin sayıda kuruluşla çalışıyoruz, böylece her birine hak ettiği derinlikte dikkat ve uzmanlık sağlıyoruz. Bu odaklı yaklaşım daha derine inmemizi, düşünceli, stratejik ve kalıcı çalışmalar sunmamızı sağlıyor.',
         principles: [
           {
-            title: 'Önce Strateji, Her Zaman.',
-            description: 'Her çalışma iş bağlamınızı anlamak ve hizmet stratejisini tanımlamakla başlar. Çünkü strateji sürdürülebilir dönüşümün temelidir.'
+            title: 'Değere Odaklan.',
+            description: 'Her karar ve aktivite değer yaratmaya katkıda bulunmalıdır. Paydaşlarınız için gerçekten neyin önemli olduğunu belirlemenize ve hizmet sunumunu buna göre hizalamanıza yardımcı oluyoruz.'
           },
           {
-            title: 'Ortak, Müşteri Değil.',
-            description: 'Sadece kuruluşlar için değil — onlarla birlikte çalışıyoruz. Rolümüz güvenilir danışmanlar olmak, her dönüşüme işbirlikçi uzmanlık getirmek.'
+            title: 'Olduğun Yerden Başla.',
+            description: 'Sıfırdan başlamak yerine mevcut olanın üzerine inşa edin. Mevcut yeteneklerinizi değerlendiriyor ve bunları iyileştirme için temel olarak kullanıyoruz.'
           },
           {
-            title: 'Pratik, Teorik Değil.',
-            description: 'ITIL ve COBIT çerçevelerdir, kural kitapları değil. En iyi uygulamaları gerçeğinize uyarlıyoruz, ortamınızda gerçekten işe yarayacak olana odaklanarak.'
+            title: 'Geri Bildirimle Yinelemeli İlerle.',
+            description: 'Dönüşüm büyük patlama yaklaşımlarıyla değil, artımlı adımlarla gerçekleşir. Karmaşık değişiklikleri yönetilebilir iterasyonlara böler, yol boyunca öğrenir ve adapte oluruz.'
           },
           {
-            title: 'Derinlikle Basitlik.',
-            description: 'En iyi hizmet tasarımları zarif ve odaklıdır. Yıllarca uygulama deneyimine dayanan net, uygulanabilir rehberlik sağlıyoruz.'
+            title: 'İşbirliği Yap ve Görünürlüğü Artır.',
+            description: 'Başarı organizasyon genelinde katılım gerektirir. Ekiplerinizle şeffaf çalışıyor, herkesin neden, nasıl ve kaydedilen ilerlemeyi anlamasını sağlıyoruz.'
           },
           {
-            title: 'Açık, Dürüst Diyalog.',
-            description: 'BT liderleri ekiplerinden nadiren filtresiz perspektifler alır. İç politikalardan ve örgütsel önyargılardan uzak, samimi görüşler sunuyoruz.'
+            title: 'Bütünsel Düşün ve Çalış.',
+            description: 'Hizmetler izole olarak var olmaz. Değişikliklerin ekosisteminiz içinde çalışmasını sağlamak için tam bağlamı — insanlar, süreçler, teknoloji ve ortaklar — göz önünde bulunduruyoruz.'
+          },
+          {
+            title: 'Basit ve Pratik Tut.',
+            description: 'Karmaşıklık benimsemenin düşmanıdır. Gereksiz ek yük olmadan anlaşılması, uygulanması ve sürdürülmesi kolay çözümler tasarlıyoruz.'
+          },
+          {
+            title: 'Optimize Et ve Otomatikleştir.',
+            description: 'Daha zor değil, daha akıllı çalışın. İsrafı ortadan kaldırmak, süreçleri kolaylaştırmak ve gerçek değer kattığı yerlerde otomasyondan yararlanmak için fırsatları belirliyoruz.'
           }
         ]
       },
