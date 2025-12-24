@@ -567,6 +567,10 @@ const App = () => {
         * {
           scroll-behavior: smooth;
         }
+
+        html {
+          scroll-padding-top: 100px;
+        }
       `}</style>
     </div>
   );
