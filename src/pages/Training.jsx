@@ -82,7 +82,7 @@ const Training = ({ language }) => {
           whyNeed: [
             'Hizmetlerin değer yaratmadığı hissediliyor',
             'Arızalar, problemler ve değişiklikler etkili bir şekilde yönetilemiyor',
-            'Ekipler ortak uygulamalar olmadan silolarda çalışıyor',
+            'Ekipler birbirlerinden habersiz, uzak çalışıyor',
             'Tutarsızlıklar müşteri memnuniyetini düşürüyor'
           ],
           link: 'Daha Fazla Bilgi'
@@ -104,7 +104,7 @@ const Training = ({ language }) => {
           subtitle: 'BT Yönetişimi',
           description: 'İş hedefleriyle uyumlu stratejik BT yönetişimi kurun.',
           whyNeed: [
-            'BT yatırımları net iş gerekçesinden yoksun',
+            'BT yatırımları için geçerli iş dayanakları eksik',
             'Yönetişim kolaylaştırıcı değil, ek yük gibi hissediliyor',
             'Risk yönetimi tutarsız veya eksik',
             'Uyum gereksinimleri kafa karışıklığı yaratıyor'
@@ -116,10 +116,10 @@ const Training = ({ language }) => {
           subtitle: 'İhtiyaçlarınıza Özel',
           description: 'Kurumsal zorluklarınıza ve hedeflerinize yönelik özelleştirilmiş programlar.',
           whyNeed: [
-            'Standart eğitimler bağlamınıza hitap etmiyor',
+            'Standart eğitimler içinde bulunduğumuz ortama hitap etmiyor',
             'Ekipler sadece teori değil, pratik uygulama istiyor',
             'Birden fazla çerçevenin birlikte çalışması gerekiyor',
-            'Belirli kurumsal zorluklar odaklı ilgi gerektiriyor'
+            'Belirli kurumsal zorluklar odak ve ilgi gerektiriyor'
           ],
           link: 'Daha Fazla Bilgi'
         }

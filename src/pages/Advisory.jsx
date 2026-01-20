@@ -40,6 +40,16 @@ const Advisory = ({ language }) => {
               'Too much process slowing change',
               'Change fatigue from initiatives that don\'t stick'
             ]
+          },
+          {
+            title: 'AI Strategy & Governance',
+            description: 'Turn AI potential into business results. We guide organizations through AI strategy, governance, and implementation—ensuring investments deliver measurable value while maintaining ethical standards.',
+            whyMatters: [
+              'AI investments failing to deliver expected business value',
+              'No governance framework for responsible AI adoption',
+              'Scattered pilots without strategic direction',
+              'Regulatory and ethical risks going unmanaged'
+            ]
           }
         ]
       },
@@ -85,6 +95,16 @@ const Advisory = ({ language }) => {
               'Yapı eksikliği kaos ve kafa karışıklığı yaratır',
               'Çok fazla süreç gerekli değişimi yavaşlatır',
               'Kalıcı olmayan girişimlerden kaynaklanan değişim yorgunluğu'
+            ]
+          },
+          {
+            title: 'Yapay Zeka Stratejisi & Yönetişimi',
+            description: 'Yapay zeka potansiyelini iş sonuçlarına dönüştürün. Kuruluşları yapay zeka stratejisi, yönetişimi ve uygulaması konusunda yönlendiriyoruz—yatırımların etik standartları korurken ölçülebilir değer sunmasını sağlıyoruz.',
+            whyMatters: [
+              'Yapay zeka yatırımları beklenen iş değerini üretemiyor',
+              'Sorumlu yapay zeka benimsemesi için yönetişim çerçevesi yok',
+              'Stratejik yönelimden yoksun dağınık pilot projeler',
+              'Yönetilmeyen düzenleyici ve etik riskler'
             ]
           }
         ]

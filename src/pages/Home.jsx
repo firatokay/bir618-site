@@ -39,7 +39,7 @@ const Home = ({ language }) => {
         }
       },
       whyBir618: {
-        title: 'Why Bir618',
+        title: 'Why Bir618?',
         reasons: [
           {
             title: 'PeopleCert Accredited Partner',
@@ -57,9 +57,9 @@ const Home = ({ language }) => {
             why: 'Most consultancies specialize in one framework. We show you how service management, governance, and delivery capabilities integrate to create comprehensive organizational excellence.'
           },
           {
-            title: 'Team-Based Excellence',
-            description: 'Collective expertise and continuity, not dependency on individual consultants.',
-            why: 'You get diverse perspectives, knowledge sharing, and sustained support. If one consultant is unavailable, your project continues seamlessly with consistent quality.'
+            title: 'Theory Meets Reality',
+            description: 'Frameworks adapted through years of hands-on delivery.',
+            why: 'Textbooks tell you what should work. We show you what actually works—because we\'ve tested it, refined it, and delivered results with it across industries and organizations.'
           }
         ]
       },
@@ -85,7 +85,7 @@ const Home = ({ language }) => {
           whyNeed: [
             'Ekiplerde ürün ve hizmet yönetimi için ortak dil ve uygulamalar eksik',
             'İşlerin nasıl yapılacağına dair yapılandırılmış bir yaklaşım yok',
-            'En iyi uygulamalar uygulanacak kadar iyi anlaşılmıyor',
+            'En iyi yöntemler uygulanabilecek kadar iyi anlaşılmıyor',
             'Hizmet kalitesi kimin dahil olduğuna göre değişiyor'
           ],
           cta: 'Daha Fazla Bilgi'
@@ -104,7 +104,7 @@ const Home = ({ language }) => {
         }
       },
       whyBir618: {
-        title: 'Neden Bir618',
+        title: 'Neden Bir618?',
         reasons: [
           {
             title: 'PeopleCert Akredite İş Ortağı',
@@ -119,18 +119,18 @@ const Home = ({ language }) => {
           {
             title: 'Bütünleşik Yaklaşım',
             description: 'ITIL, COBIT ve PRINCE2 Agile izole değil, birlikte çalışır.',
-            why: 'Biz dijital ürün ve hizmet yönetimi, yönetişim ve teslimat yeteneklerinin kapsamlı kurumsal mükemmeliyet oluşturmak için nasıl entegre olduğunu gösteririz.'
+            why: 'Dijital ürün ve hizmet yönetimi, yönetişim ve teslimat yeteneklerinin kapsamlı kurumsal mükemmeliyet oluşturmak için nasıl entegre olabileceğini gösteriyoruz.'
           },
           {
-            title: 'Ekip Tabanlı Mükemmeliyet',
-            description: 'Bireysel danışman bağımlılığı değil, kolektif uzmanlık ve süreklilik.',
-            why: 'Çeşitli perspektifler, bilgi paylaşımı ve sürdürülebilir destek elde ediyorsunuz. Bir danışman müsait değilse, projeniz tutarlı kaliteyle sorunsuz devam eder.'
+            title: 'Teori Gerçekle Buluşuyor',
+            description: 'Yılların uygulamalı deneyimiyle şekillenmiş çerçeveler.',
+            why: 'Ders kitapları neyin işe yaraması gerektiğini söyler. Biz neyin gerçekten işe yaradığını gösteriyoruz—çünkü bunu test ettik, geliştirdik ve farklı sektör ve kuruluşlarda sonuç aldık.'
           }
         ]
       },
       cta: {
         title: 'Dönüşüme Hazır mısınız?',
-        description: 'Ekip yetenekleri geliştiriyor veya stratejik rehberlik arıyor olun, yardımcı olmak için buradayız.',
+        description: 'İster ekip yetenekleri geliştiriyor, ister stratejik rehberlik arıyor olun, yardımcı olmak için buradayız.',
         button: 'Görüşme Planlayın'
       }
     }

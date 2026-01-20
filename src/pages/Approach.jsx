@@ -56,7 +56,7 @@ const Approach = ({ language }) => {
       },
       philosophy: {
         title: 'Felsefemiz',
-        text: 'Çerçeveler tek başına kuruluşları dönüştürmez—doğru rehberlik, destek ve stratejik yaklaşımla insanlar dönüştürür. 2005\'ten beri kalıcı değişimin sadece tavsiye değil, ortaklık gerektirdiğini—ekiplerinizle birlikte çalışmayı, uzaktan gözlemlememyi—öğrendik.'
+        text: 'Çerçeveler tek başına kuruluşları dönüştürmez—doğru rehberlik, destek ve stratejik yaklaşımla insanlar kuruluşları dönüştürür. 2005\'ten beri kalıcı değişimin sadece tavsiye değil, ortaklık gerektirdiğini—ekiplerinizle birlikte çalışmayı, sadece uzaktan gözlemlememeyi—bilerek çalışıyoruz.'
       },
       principles: [
         {
@@ -65,7 +65,7 @@ const Approach = ({ language }) => {
         },
         {
           title: 'Olduğun Yerden Başla',
-          description: 'Sıfırdan başlamak yerine mevcut olanın üzerine inşa edin. Mevcut yeteneklerinizi değerlendiriyor ve bunları iyileştirme temeli olarak kullanıyoruz.'
+          description: 'Sıfırdan başlamak yerine mevcut olanın üzerine inşa etmek daha anlamlı olabilir. Mevcut yeteneklerinizi değerlendiriyor ve bunları iyileştirme temeli olarak kullanıyoruz.'
         },
         {
           title: 'Geri Bildirimle Yinelemeli İlerle',
@@ -77,11 +77,11 @@ const Approach = ({ language }) => {
         },
         {
           title: 'Bütünsel Düşün ve Çalış',
-          description: 'Hizmetler izole olarak var olmaz. Değişikliklerin ekosisteminiz içinde çalışmasını sağlamak için tam bağlamı—insanlar, süreçler, teknoloji ve ortaklar—göz önünde bulunduruyoruz.'
+          description: 'Hizmetler izole bir biçimde çalışmaz. Değişikliklerin ekosisteminiz içinde başarılı olmasını sağlamak için tüm unsurları—insanlar, süreçler, teknoloji ve ortaklar—göz önünde bulunduruyoruz.'
         },
         {
           title: 'Basit ve Pratik Tut',
-          description: 'Karmaşıklık benimsemenin düşmanıdır. Gereksiz ek yük olmadan anlaşılması, uygulanması ve sürdürülmesi kolay çözümler tasarlıyoruz.'
+          description: 'Karmaşıklık benimsemeyi engeller. Gereksiz ek yük getirmeyen; anlaşılması, uygulanması ve sürdürülmesi kolay çözümler tasarlıyoruz.'
         },
         {
           title: 'Optimize Et ve Otomatikleştir',
