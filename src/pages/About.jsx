@@ -49,13 +49,13 @@ const About = ({ language }) => {
           { label: 'Sürekli Öğrenme', desc: 'Meraklı kalıyor ve öğrenmeyi asla bırakmıyoruz. BT ortamı sürekli gelişiyor ve müşterilerimizin en güncel düşüncelerden faydalanması için ön safta kalmaya yatırım yapıyoruz.' },
           { label: 'Saygı', desc: 'Farklı bakış açılarına değer veriyor ve herkese saygıyla davranıyoruz. Kurumsal bağlamınız, kültürünüz ve kısıtlarınız önemlidir—tavsiye vermeden önce dinliyoruz.' },
           { label: 'Cesaret', desc: 'Varsayımları sorgular ve daha iyi bir yol gördüğümüzde sesimizi çıkarırız. Gerçek ortaklık, sizin çıkarlarınıza hizmet ettiğinde saygılı bir şekilde itiraz etme cesaretini gerektirir.' },
-          { label: 'Sadelik', desc: 'Netliği bulmak için karmaşıklığı kesip atıyoruz. Jargonsuz iletişim ve anlaşılır çözümler bizim imzamızdır—dönüşüm için tercümana ihtiyaç olmamalı.' },
+          { label: 'Sadelik', desc: 'Netliği bulmak için karmaşıklığı kesip atıyoruz. Jargonsuz iletişim ve anlaşılır çözümler arıyoruz—dönüşüm için tercümana ihtiyaç olmamalı.' },
           { label: 'Uyum Sağlama', desc: 'Yaklaşımımızı sizin gerçekliğinize uyacak şekilde esnekleştiriyoruz, tam tersi değil. Her kuruluş benzersizdir ve kalıplaşmış çözümler kalıcı değişim yaratmaz.' }
         ]
       },
       cta: {
         title: 'Konuşmaya Başlayalım',
-        description: 'Ekibiniz için yetenek geliştirme keşfediyor veya dönüşüm danışmanlığı düşünüyor olun, durumunuzu konuşma fırsatını memnuniyetle karşılarız.',
+        description: 'Ekibiniz için yetenek geliştirme keşfediyor veya dönüşüm danışmanlığı düşünüyor olabilirsiniz. Durumunuzu konuşma fırsatını memnuniyetle karşılarız.',
         button: 'İletişime Geçin'
       }
     }

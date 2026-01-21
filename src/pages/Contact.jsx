@@ -45,7 +45,7 @@ const Contact = ({ language }) => {
     tr: {
       hero: {
         title: 'Dönüşümünüz Hakkında Konuşalım',
-        subtitle: 'Eğitim seçeneklerini keşfediyor, danışmanlık desteği düşünüyor veya sadece zorluklarınızı konuşmak istiyor olun—yardımcı olmak için buradayız.'
+        subtitle: 'Eğitim seçeneklerini keşfetmek, danışmanlık desteği almak veya sadece zorluklarınızı konuşmak için — kısaca yardımcı olmak için buradayız.'
       },
       contactInfo: {
         title: 'İletişim Bilgileri',
