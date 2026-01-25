@@ -81,7 +81,7 @@ const Home = ({ language }) => {
         training: {
           title: 'EĞİTİM',
           subtitle: 'Kurumsal Yetenek Geliştirme',
-          description: 'Ekiplerinizi küresel çapta tanınan çerçeveler ve pratik becerilerle donatın. ITIL® ve PRINCE2® Agile\'dan COBIT ve özel atölyelere kadar, kurumsal bağlamınıza özel şirket içi programlar sunuyoruz.',
+          description: 'Ekiplerinizi küresel çapta tanınan çerçeveler ve pratik becerilerle donatın. ITIL® ve PRINCE2® Agile\'dan COBIT ve özel atölyelere kadar, kuruluşunuza özel programlar sunuyoruz.',
           whyNeed: [
             'Ekiplerde ürün ve hizmet yönetimi için ortak dil ve uygulamalar eksik',
             'İşlerin nasıl yapılacağına dair yapılandırılmış bir yaklaşım yok',
@@ -93,7 +93,7 @@ const Home = ({ language }) => {
         advisory: {
           title: 'DANIŞMANLIK',
           subtitle: 'Stratejik Rehberlik & Uygulama',
-          description: 'Uygulamalı danışmanlık desteğiyle kuruluşunuzu dönüştürün. Dijital hizmetleri, yönetişim çerçevelerini ve dönüşüm girişimlerini tasarlamak, uygulamak ve optimize etmek için liderlik ekipleriyle ortaklık kuruyoruz.',
+          description: 'Uygulamalı danışmanlık desteğiyle kuruluşunuzu dönüştürün. Dijital hizmetleri, dönüşüm girişimlerini ve yönetişim çerçevelerini tasarlamak, uygulamak ve optimize etmek için ekiplerinize yardım ediyoruz.',
           whyNeed: [
             'Dönüşüm girişimleri duraksıyor veya beklenen sonuçları vermiyor',
             'İç ekipler büyük ölçekli değişim için kapasite veya uzmanlıktan yoksun',

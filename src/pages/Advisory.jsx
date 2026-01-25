@@ -9,6 +9,7 @@ const Advisory = ({ language }) => {
         subtitle: 'Hands-on consulting support for digital services, IT governance, and transformation delivery.'
       },
       opening: 'Frameworks alone don\'t transform organizations—people do, with the right guidance, support, and strategic approach.',
+      whyNeedTitle: 'Why do you need this?',
       expertise: {
         areas: [
           {
@@ -65,6 +66,7 @@ const Advisory = ({ language }) => {
         subtitle: 'Dijital hizmetler, BT yönetişimi ve dönüşüm uygulaması için uygulamalı danışmanlık desteği.'
       },
       opening: 'Çerçeveler tek başına kuruluşları dönüştürmez—doğru rehberlik, destek ve stratejik yaklaşımla insanlar dönüştürür.',
+      whyNeedTitle: 'Buna neden ihtiyacınız var?',
       expertise: {
         areas: [
           {
@@ -167,12 +169,15 @@ const Advisory = ({ language }) => {
                 <p className="text-xl font-light leading-relaxed text-gray-700 max-w-3xl">
                   {area.description}
                 </p>
-                <div className="grid md:grid-cols-2 gap-4 pt-4">
-                  {area.whyMatters.map((item, idx) => (
-                    <p key={idx} className="text-base font-light text-gray-600 pl-4 border-l-2 border-amber-600">
-                      {item}
-                    </p>
-                  ))}
+                <div className="space-y-3 pt-4">
+                  <p className="text-base font-medium text-gray-800">{t.whyNeedTitle}</p>
+                  <div className="grid md:grid-cols-2 gap-4">
+                    {area.whyMatters.map((item, idx) => (
+                      <p key={idx} className="text-base font-light text-gray-600 pl-4 border-l-2 border-amber-600">
+                        {item}
+                      </p>
+                    ))}
+                  </div>
                 </div>
               </div>
             ))}

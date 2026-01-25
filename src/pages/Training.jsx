@@ -102,7 +102,7 @@ const Training = ({ language }) => {
         {
           title: 'COBIT',
           subtitle: 'BT Yönetişimi',
-          description: 'İş hedefleriyle uyumlu stratejik BT yönetişimi kurun.',
+          description: 'İş hedefleriyle uyumlu stratejik BT yönetişimini öğrenin.',
           whyNeed: [
             'BT yatırımları için geçerli iş dayanakları eksik',
             'Yönetişim kolaylaştırıcı değil, ek yük gibi hissediliyor',
@@ -114,7 +114,7 @@ const Training = ({ language }) => {
         {
           title: 'Özel Atölyeler',
           subtitle: 'İhtiyaçlarınıza Özel',
-          description: 'Kurumsal zorluklarınıza ve hedeflerinize yönelik özelleştirilmiş programlar.',
+          description: 'Kurumsal zorluklarınıza ve hedeflerinize göre eğitim programlarını özelleştirin.',
           whyNeed: [
             'Standart eğitimler içinde bulunduğumuz ortama hitap etmiyor',
             'Ekipler sadece teori değil, pratik uygulama istiyor',
