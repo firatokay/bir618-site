@@ -16,40 +16,40 @@ const Advisory = ({ language }) => {
             title: 'Digital Product & Service Management',
             description: 'Design and deliver digital products that create value for customers and drive business growth.',
             whyMatters: [
-              'Disconnected product strategy from business objectives',
-              'Poor customer experience leading to lost opportunities',
-              'Inefficient operating models slowing innovation',
-              'Inability to measure and optimize product value'
+              'Product teams operating without clear governance or accountability...',
+              'Manual processes consuming time better spent on innovation...',
+              'Products and services failing to meet evolving customer expectations...',
+              'Digital initiatives not delivering expected business outcomes...'
             ]
           },
           {
             title: 'IT Governance & Value Optimization',
             description: 'Establish strategic oversight and measurable ROI from technology investments.',
             whyMatters: [
-              'IT spending disconnected from business outcomes',
-              'Unclear accountability and decision-making',
-              'Regulatory compliance gaps and audit failures',
-              'Board-level frustration with IT value delivery'
+              'IT spending disconnected from business outcomes...',
+              'Unclear accountability and decision-making...',
+              'Regulatory compliance gaps and audit failures...',
+              'Board-level frustration with IT value delivery...'
             ]
           },
           {
             title: 'Transformation and Project Delivery',
             description: 'Execute complex change initiatives with structure, agility, and confidence.',
             whyMatters: [
-              'Projects over budget, behind schedule, or cancelled',
-              'Lack of structure creating chaos',
-              'Too much process slowing change',
-              'Change fatigue from initiatives that don\'t stick'
+              'Projects over budget, behind schedule, or cancelled...',
+              'Lack of structure creating chaos...',
+              'Too much process slowing change...',
+              'Change fatigue from initiatives that don\'t stick...'
             ]
           },
           {
             title: 'AI Strategy & Governance',
             description: 'Turn AI potential into business results. We guide organizations through AI strategy, governance, and implementation—ensuring investments deliver measurable value while maintaining ethical standards.',
             whyMatters: [
-              'AI investments failing to deliver expected business value',
-              'No governance framework for responsible AI adoption',
-              'Scattered pilots without strategic direction',
-              'Regulatory and ethical risks going unmanaged'
+              'AI investments failing to deliver expected business value...',
+              'No governance framework for responsible AI adoption...',
+              'Scattered pilots without strategic direction...',
+              'Regulatory and ethical risks going unmanaged...'
             ]
           }
         ]
@@ -73,40 +73,40 @@ const Advisory = ({ language }) => {
             title: 'Dijital Ürün & Hizmet Yönetimi',
             description: 'Müşteriler için değer yaratan ve iş büyümesini destekleyen dijital ürünler tasarlayın ve sunun.',
             whyMatters: [
-              'Ürün stratejisinin iş hedeflerinden kopuk olması',
-              'Zayıf müşteri deneyimi fırsatların kaybedilmesine yol açar',
-              'Verimsiz işletim modelleri inovasyonu yavaşlatır',
-              'Ürün değerini ölçme ve optimize etme yetersizliği'
+              'Net bir yöntem veya yaklaşım olmadan çalışan ekipler...',
+              'Daha anlamlı işlere ayrılabilecek zamanı tüketen hantal süreçler...',
+              'Değişen müşteri beklentilerini karşılayamayan ürünler ve hizmetler...',
+              'Beklenen iş sonuçlarını üretemeyen dijital girişimler...'
             ]
           },
           {
             title: 'BT Yönetişimi & Değer Optimizasyonu',
             description: 'Stratejik gözetim ve teknoloji yatırımlarından ölçülebilir getiri sağlayın.',
             whyMatters: [
-              'BT harcamalarının iş sonuçlarından kopuk olması',
-              'Belirsiz sorumluluk ve karar verme',
-              'Düzenleyici uyum boşlukları ve denetim hataları',
-              'Yönetim kurulunun BT değer sunumundan duyduğu hayal kırıklığı'
+              'Beklenen sonuçları üretemeyen BT harcamaları...',
+              'Belirsiz sorumluluk ve karar verme...',
+              'Düzenleyici uyum boşlukları ve denetim hataları...',
+              'BT değer sunumundan duyulan hayal kırıklığı...'
             ]
           },
           {
             title: 'Dönüşüm ve Proje Yönetimi',
             description: 'Karmaşık değişim girişimlerini yapı, çeviklik ve güvenle gerçekleştirin.',
             whyMatters: [
-              'Bütçe aşan, gecikmeli veya iptal edilen projeler',
-              'Yapı eksikliği kaos ve kafa karışıklığı yaratır',
-              'Çok fazla süreç gerekli değişimi yavaşlatır',
-              'Kalıcı olmayan girişimlerden kaynaklanan değişim yorgunluğu'
+              'Bütçe aşan, gecikmeli veya iptal edilen projeler...',
+              'Kaos ve kafa karışıklığı yaratan yöntemler...',
+              'Değişimi yavaşlatan bürokratik süreçler...',
+              'Kalıcı olmayan girişimlerden kaynaklanan değişim yorgunluğu...'
             ]
           },
           {
             title: 'Yapay Zeka Stratejisi & Yönetişimi',
             description: 'Yapay zeka potansiyelini iş sonuçlarına dönüştürün. Kuruluşları yapay zeka stratejisi, yönetişimi ve uygulaması konusunda yönlendiriyoruz—yatırımların etik standartları korurken ölçülebilir değer sunmasını sağlıyoruz.',
             whyMatters: [
-              'Yapay zeka yatırımları beklenen iş değerini üretemiyor',
-              'Sorumlu yapay zeka benimsemesi için yönetişim çerçevesi yok',
-              'Stratejik yönelimden yoksun dağınık pilot projeler',
-              'Yönetilmeyen düzenleyici ve etik riskler'
+              'Beklenen iş değerini üretemeyen yapay zeka yatırımları...',
+              'Sorumlu yapay zeka benimsemesi için eksik yönetişim çerçevesi...',
+              'Stratejik yönelimden yoksun dağınık pilot projeler...',
+              'Yönetilmeyen düzenleyici ve etik riskler...'
             ]
           }
         ]

@@ -17,10 +17,10 @@ const Training = ({ language }) => {
           subtitle: 'Digital Product and Service Management Excellence',
           description: 'From Foundation to Master, build comprehensive digital product and service management capability.',
           whyNeed: [
-            'Services feel disconnected from business value',
-            'Don\'t know how to manage incidents, problems, and changes effectively',
-            'Teams work in silos without shared practices',
-            'Customer satisfaction suffers from inconsistent delivery'
+            'Services feel disconnected from business value...',
+            'Don\'t know how to manage incidents, problems, and changes effectively...',
+            'Teams work in silos without shared practices...',
+            'Customer satisfaction suffers from inconsistent delivery...'
           ],
           link: 'Learn More'
         },
@@ -29,10 +29,10 @@ const Training = ({ language }) => {
           subtitle: 'Agile Project Delivery',
           description: 'Master project management combining PRINCE2 structure with speed and flexibility.',
           whyNeed: [
-            'Projects lack clear governance and accountability',
-            'Traditional methods feel too rigid for changing requirements',
-            'Agile approaches lack strategic oversight',
-            'Stakeholders struggle to see progress and value'
+            'Projects lack clear governance and accountability...',
+            'Traditional methods feel too rigid for changing requirements...',
+            'Agile approaches lack strategic oversight...',
+            'Stakeholders struggle to see progress and value...'
           ],
           link: 'Learn More'
         },
@@ -41,10 +41,10 @@ const Training = ({ language }) => {
           subtitle: 'IT Governance',
           description: 'Establish strategic IT governance aligned with business objectives.',
           whyNeed: [
-            'IT investments lack clear business justification',
-            'Governance feels like overhead, not enablement',
-            'Risk management is inconsistent or missing',
-            'Compliance requirements create confusion'
+            'IT investments lack clear business justification...',
+            'Governance feels like overhead, not enablement...',
+            'Risk management is inconsistent or missing...',
+            'Compliance requirements create confusion...'
           ],
           link: 'Learn More'
         },
@@ -53,10 +53,10 @@ const Training = ({ language }) => {
           subtitle: 'Tailored to Your Needs',
           description: 'Customized programs addressing your specific organizational challenges and goals.',
           whyNeed: [
-            'Standard training doesn\'t address your context',
-            'Teams need practical application, not just theory',
-            'Multiple frameworks need to work together',
-            'Specific organizational challenges require focused attention'
+            'Standard training doesn\'t address your context...',
+            'Teams need practical application, not just theory...',
+            'Multiple frameworks need to work together...',
+            'Specific organizational challenges require focused attention...'
           ],
           link: 'Learn More'
         }
@@ -80,10 +80,10 @@ const Training = ({ language }) => {
           subtitle: 'Dijital Ürün ve Hizmet Yönetimi Mükemmeliyeti',
           description: 'Foundation\'dan Master\'a, kapsamlı dijital ürün ve hizmet yönetimi yeteneği geliştirin.',
           whyNeed: [
-            'Hizmetlerin değer yaratmadığı hissediliyor',
-            'Arızalar, problemler ve değişiklikler etkili bir şekilde yönetilemiyor',
-            'Ekipler birbirlerinden habersiz, uzak çalışıyor',
-            'Tutarsızlıklar müşteri memnuniyetini düşürüyor'
+            'Hizmetlerin değer yaratmadığı hissediliyor...',
+            'Arızalar, problemler ve değişiklikler etkili bir şekilde yönetilemiyor...',
+            'Ekipler birbirlerinden habersiz, uzak çalışıyor...',
+            'Tutarsızlıklar müşteri memnuniyetini düşürüyor...'
           ],
           link: 'Daha Fazla Bilgi'
         },
@@ -92,10 +92,10 @@ const Training = ({ language }) => {
           subtitle: 'Çevik Proje Yönetimi',
           description: 'PRINCE2 yapısını hız ve esneklikle birleştiren proje yönetiminde ustalaşın.',
           whyNeed: [
-            'Projelerde net yönetişim ve hesap verebilirlik eksik',
-            'Geleneksel yöntemler değişen gereksinimler için çok katı',
-            'Çevik yaklaşımlar stratejik gözetimden yoksun',
-            'Paydaşlar ilerlemeyi ve değeri görmekte zorlanıyor'
+            'Projelerde net yönetişim ve hesap verebilirlik eksik...',
+            'Geleneksel yöntemler değişen gereksinimler için çok katı...',
+            'Çevik yaklaşımlar stratejik gözetimden yoksun...',
+            'Paydaşlar ilerlemeyi ve değeri görmekte zorlanıyor...'
           ],
           link: 'Daha Fazla Bilgi'
         },
@@ -104,10 +104,10 @@ const Training = ({ language }) => {
           subtitle: 'BT Yönetişimi',
           description: 'İş hedefleriyle uyumlu stratejik BT yönetişimini öğrenin.',
           whyNeed: [
-            'BT yatırımları için geçerli iş dayanakları eksik',
-            'Yönetişim kolaylaştırıcı değil, ek yük gibi hissediliyor',
-            'Risk yönetimi tutarsız veya eksik',
-            'Uyum gereksinimleri kafa karışıklığı yaratıyor'
+            'BT yatırımları için geçerli iş dayanakları eksik...',
+            'Yönetişim kolaylaştırıcı değil, ek yük gibi hissediliyor...',
+            'Risk yönetimi tutarsız veya eksik...',
+            'Uyum gereksinimleri kafa karışıklığı yaratıyor...'
           ],
           link: 'Daha Fazla Bilgi'
         },
@@ -116,10 +116,10 @@ const Training = ({ language }) => {
           subtitle: 'İhtiyaçlarınıza Özel',
           description: 'Kurumsal zorluklarınıza ve hedeflerinize göre eğitim programlarını özelleştirin.',
           whyNeed: [
-            'Standart eğitimler içinde bulunduğumuz ortama hitap etmiyor',
-            'Ekipler sadece teori değil, pratik uygulama istiyor',
-            'Birden fazla çerçevenin birlikte çalışması gerekiyor',
-            'Belirli kurumsal zorluklar odak ve ilgi gerektiriyor'
+            'Standart eğitimler içinde bulunduğumuz ortama hitap etmiyor...',
+            'Ekipler sadece teori değil, pratik uygulama istiyor...',
+            'Birden fazla çerçevenin birlikte çalışması gerekiyor...',
+            'Belirli kurumsal zorluklar odak ve ilgi gerektiriyor...'
           ],
           link: 'Daha Fazla Bilgi'
         }
