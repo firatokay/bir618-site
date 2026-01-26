@@ -67,7 +67,7 @@ const About = ({ language }) => {
       },
       cta: {
         title: 'Konuşmaya Başlayalım',
-        description: 'Ekibiniz için yetenek geliştirme keşfediyor veya dönüşüm danışmanlığı düşünüyor olabilirsiniz. Durumunuzu konuşma fırsatını memnuniyetle karşılarız.',
+        description: 'Ekibiniz için yetenek geliştirme keşfediyor veya dönüşüm danışmanlığı düşünüyor olabilirsiniz. Gelin durumunuzu birlikte değerlendirelim.',
         button: 'İletişime Geçin'
       }
     }

@@ -68,7 +68,7 @@ const Approach = ({ language }) => {
       },
       philosophy: {
         title: 'Felsefemiz',
-        text: 'Çerçeveler tek başına kuruluşları dönüştürmez—doğru rehberlik, destek ve stratejik yaklaşımla insanlar kuruluşları dönüştürür. 2005\'ten beri kalıcı değişimin sadece tavsiye değil, ortaklık gerektirdiğini—ekiplerinizle birlikte çalışmayı, sadece uzaktan gözlemlememeyi—bilerek çalışıyoruz. Aşağıdaki ITIL Yol Gösterici İlkeleri, her müşteriyle nasıl çalıştığımızı şekillendiriyor.'
+        text: 'Çerçeveler tek başına kuruluşları dönüştürmez—doğru rehberlik, destek ve stratejik yaklaşımla insanlar kuruluşları dönüştürür. 2005\'ten beri kalıcı değişimin sadece tavsiye değil, ortaklık gerektirdiğini—ekiplerinizle birlikte çalışmayı, sadece uzaktan gözlemlememeyi—bilerek çalışıyoruz. Aşağıda yer alan ITIL Rehber İlkeleri nasıl çalıştığımızı tarif ediyor.'
       },
       principles: [
         {
