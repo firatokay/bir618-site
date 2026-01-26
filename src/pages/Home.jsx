@@ -173,6 +173,7 @@ const Home = ({ language }) => {
         title={seo[language].title}
         description={seo[language].description}
         lang={language === 'tr' ? 'tr' : 'en'}
+        path={language === 'tr' ? '/tr' : '/'}
       />
       {/* Hero Section */}
       <section className="py-32 px-6 lg:px-12 bg-white">

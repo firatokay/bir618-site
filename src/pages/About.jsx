@@ -1,7 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const About = ({ language }) => {
+  const seo = {
+    en: {
+      title: 'About Bir618 | Partners in IT Transformation Since 2005',
+      description: 'Two decades of helping organizations build IT service excellence, governance, and transformation capability. PeopleCert accredited partner.'
+    },
+    tr: {
+      title: 'Hakkımızda | 2005\'ten Beri BT Dönüşümünde İş Ortağı | Bir618',
+      description: 'Yirmi yıldır kuruluşların BT hizmet mükemmeliyeti, yönetişim ve dönüşüm yeteneği geliştirmesine yardımcı oluyoruz. PeopleCert akredite iş ortağı.'
+    }
+  };
+
   const content = {
     en: {
       hero: {
@@ -82,6 +94,12 @@ const About = ({ language }) => {
 
   return (
     <>
+      <SEO
+        title={seo[language].title}
+        description={seo[language].description}
+        lang={language === 'tr' ? 'tr' : 'en'}
+        path={language === 'tr' ? '/tr/hakkimizda' : '/about'}
+      />
       <section className="py-32 px-6 lg:px-12 bg-white">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight leading-tight mb-8">

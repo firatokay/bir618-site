@@ -1,8 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Gem, MapPin, RefreshCw, Eye, Waypoints, Minimize2, Zap } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Approach = ({ language }) => {
+  const seo = {
+    en: {
+      title: 'Our Approach | Practical Transformation Principles | Bir618',
+      description: 'Built on what works. Practical principles and hands-on partnership for IT transformation that delivers lasting change.'
+    },
+    tr: {
+      title: 'Yaklaşımımız | Pratik Dönüşüm İlkeleri | Bir618',
+      description: 'İşe yarayan temeller üzerine. Kalıcı değişim sağlayan BT dönüşümü için pratik ilkeler ve uygulamalı ortaklık.'
+    }
+  };
+
   const content = {
     en: {
       hero: {
@@ -11,7 +23,7 @@ const Approach = ({ language }) => {
       },
       philosophy: {
         title: 'Our Philosophy',
-        text: 'Frameworks alone don\'t transform organizations—people do, with the right guidance, support, and strategic approach. Since 2005, we\'ve learned that lasting change requires partnership, not just advice—working alongside your teams, not observing from a distance.'
+        text: 'Frameworks alone don\'t transform organizations—people do, with the right guidance, support, and strategic approach. Since 2005, we\'ve learned that lasting change requires partnership, not just advice—working alongside your teams, not observing from a distance. The ITIL Guiding Principles below shape how we work with every client.'
       },
       principles: [
         {
@@ -56,7 +68,7 @@ const Approach = ({ language }) => {
       },
       philosophy: {
         title: 'Felsefemiz',
-        text: 'Çerçeveler tek başına kuruluşları dönüştürmez—doğru rehberlik, destek ve stratejik yaklaşımla insanlar kuruluşları dönüştürür. 2005\'ten beri kalıcı değişimin sadece tavsiye değil, ortaklık gerektirdiğini—ekiplerinizle birlikte çalışmayı, sadece uzaktan gözlemlememeyi—bilerek çalışıyoruz.'
+        text: 'Çerçeveler tek başına kuruluşları dönüştürmez—doğru rehberlik, destek ve stratejik yaklaşımla insanlar kuruluşları dönüştürür. 2005\'ten beri kalıcı değişimin sadece tavsiye değil, ortaklık gerektirdiğini—ekiplerinizle birlikte çalışmayı, sadece uzaktan gözlemlememeyi—bilerek çalışıyoruz. Aşağıdaki ITIL Yol Gösterici İlkeleri, her müşteriyle nasıl çalıştığımızı şekillendiriyor.'
       },
       principles: [
         {
@@ -116,6 +128,12 @@ const Approach = ({ language }) => {
 
   return (
     <>
+      <SEO
+        title={seo[language].title}
+        description={seo[language].description}
+        lang={language === 'tr' ? 'tr' : 'en'}
+        path={language === 'tr' ? '/tr/yaklasim' : '/approach'}
+      />
       <section className="py-32 px-6 lg:px-12 bg-white">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight leading-tight mb-8">

@@ -1,0 +1,6 @@
+# Robots.txt for bir618.com
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.bir618.com/sitemap.xml

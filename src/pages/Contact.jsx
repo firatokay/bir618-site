@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const WEB3FORMS_ACCESS_KEY = '1bd0b69b-0e0c-41e4-b29f-eff16ef2e7f7';
 
@@ -12,6 +13,17 @@ const Contact = ({ language }) => {
   });
   const [status, setStatus] = useState('idle'); // idle, submitting, success, error
   const [errorMessage, setErrorMessage] = useState('');
+
+  const seo = {
+    en: {
+      title: 'Contact Us | Schedule a Conversation | Bir618',
+      description: 'Get in touch to discuss your IT transformation, training needs, or advisory requirements. We respond within one business day.'
+    },
+    tr: {
+      title: 'İletişim | Görüşme Planlayın | Bir618',
+      description: 'BT dönüşümünüz, eğitim ihtiyaçlarınız veya danışmanlık gereksinimlerinizi görüşmek için bizimle iletişime geçin. Bir iş günü içinde yanıt veriyoruz.'
+    }
+  };
 
   const content = {
     en: {
@@ -134,6 +146,12 @@ const Contact = ({ language }) => {
 
   return (
     <>
+      <SEO
+        title={seo[language].title}
+        description={seo[language].description}
+        lang={language === 'tr' ? 'tr' : 'en'}
+        path={language === 'tr' ? '/tr/iletisim' : '/contact'}
+      />
       <section className="py-32 px-6 lg:px-12 bg-white">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight leading-tight mb-8">
