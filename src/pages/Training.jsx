@@ -84,7 +84,7 @@ const Training = ({ language }) => {
         title: 'Kalıcı Yetenekler Geliştirin',
         subtitle: 'Sertifikanın ötesine geçerek pratik, uygulanabilir beceriler kazandıran PeopleCert-akredite eğitim programları.'
       },
-      opening: 'Eğitim yatırımlarının gerçek değişime dönüşmediğinde yaşanan hayal kırıklığını anlıyoruz. Bu yüzden önce sizinle birlikte zorluklarınızı anlamak için çalışıyor, ardından ekiplerinizin gerçekten ihtiyaç duyduğu—sadece sınav içeriğine dayalı olmayan—becerileri kazandıran programlar tasarlıyoruz.',
+      opening: 'Eğitim yatırımlarının gerçek değişime dönüşmediğinde yaşanan hayal kırıklığını anlıyoruz. Bu yüzden önce sizinle birlikte, zorluklarınızı anlamak için çalışıyor, ardından ekiplerinizin gerçekten ihtiyaç duyduğu—sadece sınav içeriğine dayalı olmayan—becerileri kazandıran programlar tasarlıyoruz.',
       whyNeedTitle: 'Buna neden ihtiyacınız var?',
       programs: [
         {

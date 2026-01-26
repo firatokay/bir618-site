@@ -21,8 +21,7 @@ const Contact = ({ language }) => {
       },
       contactInfo: {
         title: 'Contact Information',
-        email: 'info@bir618.com',
-        hours: 'Monday - Friday: 9:00 AM - 6:00 PM (Istanbul Time)'
+        email: 'info@bir618.com'
       },
       message: {
         title: 'Send Us a Message',
@@ -49,8 +48,7 @@ const Contact = ({ language }) => {
       },
       contactInfo: {
         title: 'İletişim Bilgileri',
-        email: 'info@bir618.com',
-        hours: 'Pazartesi - Cuma: 09:00 - 18:00 (İstanbul Saati)'
+        email: 'info@bir618.com'
       },
       message: {
         title: 'Bize Mesaj Gönderin',
@@ -169,9 +167,6 @@ const Contact = ({ language }) => {
                       {getEmail()}
                     </a>
                   </div>
-                </div>
-                <div className="pt-4">
-                  <p className="text-base font-light text-gray-600">{t.contactInfo.hours}</p>
                 </div>
               </div>
             </div>

@@ -30,10 +30,10 @@ const Home = ({ language }) => {
           subtitle: 'Build Organizational Capability',
           description: 'Equip your teams with globally recognized frameworks and practical skills. From ITIL® and PRINCE2® Agile to COBIT and custom workshops, we deliver in-house programs tailored to your organizational context.',
           whyNeed: [
-            'Teams lack shared language and practices for product and service management',
-            'No structured approach on how work gets done',
-            'Best practices aren\'t understood well enough to implement',
-            'Service quality varies depending on who\'s involved'
+            'Teams lack shared language for product and service management.',
+            'No structured approach on how work gets done.',
+            'Best practices aren\'t understood well enough to implement.',
+            'Service quality varies depending on who\'s involved.'
           ],
           cta: 'Learn More'
         },
@@ -42,10 +42,10 @@ const Home = ({ language }) => {
           subtitle: 'Strategic Guidance & Implementation',
           description: 'Transform your organization with hands-on consulting support. We partner with leadership teams to design, implement, and optimize digital services, governance frameworks, and transformation initiatives.',
           whyNeed: [
-            'Transformation initiatives stall or fail to deliver expected results',
-            'Internal teams lack capacity or expertise for large-scale change',
-            'External advice doesn\'t stick after engagement ends',
-            'Frameworks were adopted but never truly integrated'
+            'Transformation initiatives stall or fail to deliver expected results.',
+            'Internal teams lack capacity or expertise for large-scale change.',
+            'External advice doesn\'t stick after engagement ends.',
+            'Frameworks were adopted but never truly integrated.'
           ],
           cta: 'Learn More'
         }
@@ -95,9 +95,9 @@ const Home = ({ language }) => {
           subtitle: 'Kurumsal Yetenek Geliştirme',
           description: 'Ekiplerinizi küresel çapta tanınan çerçeveler ve pratik becerilerle donatın. ITIL® ve PRINCE2® Agile\'dan COBIT ve özel atölyelere kadar, kuruluşunuza özel programlar sunuyoruz.',
           whyNeed: [
-            'Ekiplerde ürün ve hizmet yönetimi için ortak dil ve uygulamalar eksik',
-            'İşlerin nasıl yapılacağına dair yapılandırılmış bir yaklaşım yok',
-            'En iyi yöntemler uygulanabilecek kadar iyi anlaşılmıyor',
+            'Ekiplerde ürün ve hizmet yönetimi için ortak dil eksik.',
+            'İşlerin nasıl yapılacağına dair yapılandırılmış bir yaklaşım yok.',
+            'En iyi yöntemler uygulanabilecek kadar iyi anlaşılmıyor.',
             'Hizmet kalitesi kimin dahil olduğuna göre değişiyor'
           ],
           cta: 'Daha Fazla Bilgi'
@@ -105,12 +105,12 @@ const Home = ({ language }) => {
         advisory: {
           title: 'DANIŞMANLIK',
           subtitle: 'Stratejik Rehberlik & Uygulama',
-          description: 'Uygulamalı danışmanlık desteğiyle kuruluşunuzu dönüştürün. Dijital hizmetleri, dönüşüm girişimlerini ve yönetişim çerçevelerini tasarlamak, uygulamak ve optimize etmek için ekiplerinize yardım ediyoruz.',
+          description: 'Dijital hizmetleri, dönüşüm girişimlerini ve yönetişim çerçevelerini tasarlamak, uygulamak ve optimize etmek için ekiplerinize yardım ediyoruz.',
           whyNeed: [
-            'Dönüşüm girişimleri duraksıyor veya beklenen sonuçları vermiyor',
-            'İç ekipler büyük ölçekli değişim için kapasite veya uzmanlıktan yoksun',
-            'Dış tavsiyeler çalışma bittikten sonra kalıcı olmuyor',
-            'Çerçeveler tam anlamıyla benimsenemiyor, gerçekten entegre edilemiyor'
+            'Dönüşüm girişimleri duraksıyor veya beklenen sonuçları vermiyor.',
+            'İç ekipler büyük ölçekli değişim için kapasite veya uzmanlıktan yoksun.',
+            'Dış tavsiyeler çalışma bittikten sonra kalıcı olmuyor.',
+            'Çerçeveler tam anlamıyla benimsenemiyor, gerçekten entegre edilemiyor.'
           ],
           cta: 'Daha Fazla Bilgi'
         }
@@ -136,7 +136,7 @@ const Home = ({ language }) => {
           {
             title: 'Teori Gerçekle Buluşuyor',
             description: 'Yılların uygulamalı deneyimiyle şekillenmiş çerçeveler.',
-            why: 'Ders kitapları neyin işe yaraması gerektiğini söyler. Biz neyin gerçekten işe yaradığını gösteriyoruz—çünkü bunu test ettik, geliştirdik ve farklı sektör ve kuruluşlarda sonuç aldık.'
+            why: 'Kitaplar neyin işe yaraması gerektiğini söyler. Biz neyin gerçekten işe yaradığını gösteriyoruz—çünkü bunu test ettik, geliştirdik ve farklı sektör ve kuruluşlarda sonuç aldık.'
           }
         ]
       },
