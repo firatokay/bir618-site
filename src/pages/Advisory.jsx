@@ -56,7 +56,7 @@ const Advisory = ({ language }) => {
           },
           {
             title: 'AI Strategy & Governance',
-            description: 'Turn AI potential into business results. We guide organizations through AI strategy, governance, and implementation—ensuring investments deliver measurable value while maintaining ethical standards.',
+            description: 'Build AI capabilities that deliver business value while managing risk and maintaining ethical standards.',
             whyMatters: [
               'AI investments failing to deliver expected business value...',
               'No governance framework for responsible AI adoption...',
@@ -113,7 +113,7 @@ const Advisory = ({ language }) => {
           },
           {
             title: 'Yapay Zeka Stratejisi & Yönetişimi',
-            description: 'Yapay zeka potansiyelini iş sonuçlarına dönüştürün. Kuruluşları yapay zeka stratejisi, yönetişimi ve uygulaması konusunda yönlendiriyoruz—yatırımların etik standartları korurken ölçülebilir değer sunmasını sağlıyoruz.',
+            description: 'Riskleri ve etik standartları göz önünde bulundurarak değer yaratan yapay zeka yetenekleri geliştirin.',
             whyMatters: [
               'Beklenen iş değerini üretemeyen yapay zeka yatırımları...',
               'Sorumlu yapay zeka benimsemesi için eksik yönetişim çerçevesi...',

@@ -6,8 +6,8 @@ const Approach = ({ language }) => {
   const content = {
     en: {
       hero: {
-        title: 'How We Partner with You',
-        subtitle: 'Our philosophy and methodology for building capabilities and delivering transformation that lasts.'
+        title: 'Built on What Works',
+        subtitle: 'Practical principles and hands-on partnership for change that actually sticks.'
       },
       philosophy: {
         title: 'Our Philosophy',
@@ -51,8 +51,8 @@ const Approach = ({ language }) => {
     },
     tr: {
       hero: {
-        title: 'Sizinle Nasıl Ortaklık Kuruyoruz',
-        subtitle: 'Kalıcı yetenekler geliştirme ve dönüşüm için felsefemiz ve metodolojimiz.'
+        title: 'İşe Yarayan Temeller Üzerine',
+        subtitle: 'Gerçekten kalıcı değişim için pratik ilkeler ve uygulamalı ortaklık.'
       },
       philosophy: {
         title: 'Felsefemiz',

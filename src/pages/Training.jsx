@@ -30,7 +30,7 @@ const Training = ({ language }) => {
           description: 'From Foundation to Master, build comprehensive digital product and service management capability.',
           whyNeed: [
             'Services feel disconnected from business value...',
-            'Don\'t know how to manage incidents, problems, and changes effectively...',
+            'Can\'t manage incidents, problems, and changes effectively...',
             'Teams work in silos without shared practices...',
             'Customer satisfaction suffers from inconsistent delivery...'
           ],
