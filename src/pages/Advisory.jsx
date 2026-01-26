@@ -83,10 +83,10 @@ const Advisory = ({ language }) => {
             title: 'BT Yönetişimi & Değer Optimizasyonu',
             description: 'Stratejik gözetim ve teknoloji yatırımlarından ölçülebilir getiri sağlayın.',
             whyMatters: [
-              'Beklenen sonuçları üretemeyen BT harcamaları...',
-              'Belirsiz sorumluluk ve karar verme...',
+              'Doğru önceliklendirilemeyen BT harcamaları...',
+              'Sorumluluk ve karar verme ile ilgili belirsizlikler...',
               'Düzenleyici uyum boşlukları ve denetim hataları...',
-              'BT değer sunumundan duyulan hayal kırıklığı...'
+              'BT yatırımlarından duyulan hayal kırıklığı...'
             ]
           },
           {
