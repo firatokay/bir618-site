@@ -73,7 +73,7 @@ const Approach = ({ language }) => {
       principles: [
         {
           title: 'Değere Odaklan',
-          description: 'Her karar ve faaliyet değer yaratmaya katkıda bulunmalıdır. Paydaşlarınız için gerçekten neyin önemli olduğunu belirlemenize ve hizmet sunumunu buna göre hizalamanıza yardımcı oluyoruz.'
+          description: 'Her karar ve faaliyet değer yaratmaya katkıda bulunmalıdır. Paydaşlarınız için gerçekten neyin önemli olduğunu belirlemenize ve hizmetlerinizi buna göre hizalamanıza yardımcı oluyoruz.'
         },
         {
           title: 'Olduğun Yerden Başla',
@@ -81,7 +81,7 @@ const Approach = ({ language }) => {
         },
         {
           title: 'Geri Bildirimle Yinelemeli İlerle',
-          description: 'Dönüşüm büyük patlama yaklaşımlarıyla değil, artımlı adımlarla gerçekleşir. Karmaşık değişiklikleri yönetilebilir iterasyonlara böler, yol boyunca öğrenir ve adapte oluruz.'
+          description: 'Dönüşüm büyük patlama yaklaşımlarıyla değil, artımlı adımlarla gerçekleşir. Karmaşık değişiklikleri yönetilebilir iterasyonlara bölüyor, yol boyunca öğreniyor ve adapte oluyoruz.'
         },
         {
           title: 'İşbirliği Yap ve Görünürlüğü Artır',

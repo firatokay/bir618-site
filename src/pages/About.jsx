@@ -17,7 +17,7 @@ const About = ({ language }) => {
   const content = {
     en: {
       hero: {
-        title: 'Partners in Transformation Since 2005',
+        title: 'Experience That Delivers',
         subtitle: 'We\'ve spent two decades helping organizations build IT service excellence, governance, and transformation capability.'
       },
       story: {
@@ -45,7 +45,7 @@ const About = ({ language }) => {
     },
     tr: {
       hero: {
-        title: '2005\'ten Beri Dönüşüm Ortağı',
+        title: 'Sonuç Üreten Deneyim',
         subtitle: 'Yirmi yıldır kuruluşların BT hizmet mükemmeliyeti, yönetişim ve dönüşüm yeteneği geliştirmelerine yardımcı oluyoruz.'
       },
       story: {
@@ -57,7 +57,7 @@ const About = ({ language }) => {
         items: [
           { label: 'Ortaklık', desc: 'Ekiplerinizle gerçek işbirlikçiler olarak yan yana çalışıyoruz—bilgi paylaşıyor, ilişkiler kuruyor ve başarınıza kendimizinmiş gibi yatırım yapıyoruz.' },
           { label: 'Dürüstlük', desc: 'Size duymak istediğinizi değil, duymanız gerekeni söylüyoruz. Tavsiyelerimiz zor olsa bile her zaman dürüsttür, çünkü güven kalıcı ortaklıkların temelidir.' },
-          { label: 'Pratiklik', desc: 'Sadece kağıt üzerinde değil, gerçek dünyada işleyen çözümler tasarlıyoruz. Ekipleriniz tarafından uygulanamaz ve sürdürülemezse, masamızdan çıkmaz.' },
+          { label: 'Pratiklik', desc: 'Sadece kağıt üzerinde değil, gerçek dünyada işleyen çözümler tasarlıyoruz. Ekipleriniz tarafından uygulanamaz ve sürdürülemez yöntemler bizim önerilerimiz olamaz.' },
           { label: 'Sürekli Öğrenme', desc: 'Meraklı kalıyor ve öğrenmeyi asla bırakmıyoruz. BT ortamı sürekli gelişiyor ve müşterilerimizin en güncel düşüncelerden faydalanması için ön safta kalmaya yatırım yapıyoruz.' },
           { label: 'Saygı', desc: 'Farklı bakış açılarına değer veriyor ve herkese saygıyla davranıyoruz. Kurumsal bağlamınız, kültürünüz ve kısıtlarınız önemlidir—tavsiye vermeden önce dinliyoruz.' },
           { label: 'Cesaret', desc: 'Varsayımları sorgular ve daha iyi bir yol gördüğümüzde sesimizi çıkarırız. Gerçek ortaklık, sizin çıkarlarınıza hizmet ettiğinde saygılı bir şekilde itiraz etme cesaretini gerektirir.' },
