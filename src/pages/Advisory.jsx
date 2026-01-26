@@ -1,7 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 
 const Advisory = ({ language }) => {
+  const seo = {
+    en: {
+      title: 'Strategic IT Consulting Services | Governance & Transformation | Bir618',
+      description: 'Hands-on consulting for digital strategy, IT governance, and transformation delivery. Partner with executive teams on strategic IT initiatives.'
+    },
+    tr: {
+      title: 'Stratejik BT Danışmanlık Hizmetleri | Yönetişim & Dönüşüm | Bir618',
+      description: 'Dijital strateji, BT yönetişimi ve dönüşüm uygulaması için uygulamalı danışmanlık. Stratejik BT girişimlerinde yönetici ekiplerle ortaklık.'
+    }
+  };
+
   const content = {
     en: {
       hero: {
@@ -140,6 +152,11 @@ const Advisory = ({ language }) => {
 
   return (
     <>
+      <SEO
+        title={seo[language].title}
+        description={seo[language].description}
+        lang={language === 'tr' ? 'tr' : 'en'}
+      />
       <section className="py-32 px-6 lg:px-12 bg-white">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight leading-tight mb-8">

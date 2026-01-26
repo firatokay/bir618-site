@@ -1,8 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, Award, Users, Globe, Target } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Home = ({ language }) => {
+  const seo = {
+    en: {
+      title: 'Bir618 | Strategic IT Transformation Consulting | ITIL, COBIT, PRINCE2',
+      description: 'Strategic IT transformation consulting in Turkey. Digital governance, service management, and enterprise transformation advisory. PeopleCert accredited partner since 2005.'
+    },
+    tr: {
+      title: 'Bir618 | Stratejik BT Dönüşüm Danışmanlığı | ITIL, COBIT, PRINCE2',
+      description: 'Türkiye\'de stratejik BT dönüşüm danışmanlığı. Dijital yönetişim, hizmet yönetimi ve kurumsal dönüşüm danışmanlığı. 2005\'ten beri PeopleCert akredite iş ortağı.'
+    }
+  };
+
   const content = {
     en: {
       hero: {
@@ -157,6 +169,11 @@ const Home = ({ language }) => {
 
   return (
     <>
+      <SEO
+        title={seo[language].title}
+        description={seo[language].description}
+        lang={language === 'tr' ? 'tr' : 'en'}
+      />
       {/* Hero Section */}
       <section className="py-32 px-6 lg:px-12 bg-white">
         <div className="max-w-6xl mx-auto">

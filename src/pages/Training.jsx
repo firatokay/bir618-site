@@ -1,8 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Training = ({ language }) => {
+  const seo = {
+    en: {
+      title: 'ITIL, PRINCE2, COBIT Training | Strategic Capability Building | Bir618',
+      description: 'PeopleCert-accredited capability building programs. In-house ITIL, PRINCE2, COBIT training customized to your transformation objectives.'
+    },
+    tr: {
+      title: 'ITIL, PRINCE2, COBIT Eğitimi | Stratejik Yetenek Geliştirme | Bir618',
+      description: 'PeopleCert akredite yetenek geliştirme programları. Dönüşüm hedeflerinize özel kurum içi ITIL, PRINCE2, COBIT eğitimleri.'
+    }
+  };
+
   const content = {
     en: {
       hero: {
@@ -153,6 +165,11 @@ const Training = ({ language }) => {
 
   return (
     <>
+      <SEO
+        title={seo[language].title}
+        description={seo[language].description}
+        lang={language === 'tr' ? 'tr' : 'en'}
+      />
       {/* Hero Section */}
       <section className="py-32 px-6 lg:px-12 bg-white">
         <div className="max-w-6xl mx-auto">
