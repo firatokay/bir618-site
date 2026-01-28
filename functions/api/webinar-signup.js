@@ -15,13 +15,103 @@ export async function onRequestPost(context) {
     const data = await request.json();
 
     // Validate required fields
-    const { name, email, company, questions, language } = data;
+    const { name, email, company, questions, language, website } = data;
+
+    // Honeypot check - if filled, it's a bot
+    if (website && website.length > 0) {
+      // Return success to not alert the bot, but don't save
+      return new Response(
+        JSON.stringify({
+          success: true,
+          message: 'Registration successful',
+        }),
+        {
+          status: 200,
+          headers: {
+            'Content-Type': 'application/json',
+            ...corsHeaders,
+          },
+        }
+      );
+    }
 
     if (!name || !email || !company) {
       return new Response(
         JSON.stringify({
           success: false,
           error: 'Missing required fields: name, email, and company are required',
+        }),
+        {
+          status: 400,
+          headers: {
+            'Content-Type': 'application/json',
+            ...corsHeaders,
+          },
+        }
+      );
+    }
+
+    // Input length validation
+    const MAX_LENGTHS = {
+      name: 100,
+      email: 254,
+      company: 200,
+      questions: 2000,
+    };
+
+    if (name.length > MAX_LENGTHS.name) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: `Name must be ${MAX_LENGTHS.name} characters or less`,
+        }),
+        {
+          status: 400,
+          headers: {
+            'Content-Type': 'application/json',
+            ...corsHeaders,
+          },
+        }
+      );
+    }
+
+    if (email.length > MAX_LENGTHS.email) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: `Email must be ${MAX_LENGTHS.email} characters or less`,
+        }),
+        {
+          status: 400,
+          headers: {
+            'Content-Type': 'application/json',
+            ...corsHeaders,
+          },
+        }
+      );
+    }
+
+    if (company.length > MAX_LENGTHS.company) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: `Company must be ${MAX_LENGTHS.company} characters or less`,
+        }),
+        {
+          status: 400,
+          headers: {
+            'Content-Type': 'application/json',
+            ...corsHeaders,
+          },
+        }
+      );
+    }
+
+    if (questions && questions.length > MAX_LENGTHS.questions) {
+      return new Response(
+        JSON.stringify({
+          success: false,
+          error: `Questions must be ${MAX_LENGTHS.questions} characters or less`,
         }),
         {
           status: 400,

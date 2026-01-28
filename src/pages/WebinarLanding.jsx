@@ -20,7 +20,7 @@ const WebinarLanding = ({ language }) => {
     },
     tr: {
       title: 'Web Semineri Kayıt | Bir618',
-      description: 'BT hizmet yönetimi ve dijital dönüşüm konulu web seminerimize ilginizi bildirin.'
+      description: 'BT hizmet yönetimi ve dijital dönüşüm konulu web seminerimize katılmak için aşağıdaki formu doldurun.'
     }
   };
 
@@ -50,7 +50,7 @@ const WebinarLanding = ({ language }) => {
     tr: {
       hero: {
         title: 'Yaklaşan Web Seminerimize Katılın',
-        subtitle: 'İlginizi bildirin, detaylar kesinleştiğinde size göndereceğiz.'
+        subtitle: 'Formu doldurun, detaylar kesinleştiğinde size ulaşalım.'
       },
       form: {
         title: 'İlginizi Bildirin',
@@ -58,7 +58,7 @@ const WebinarLanding = ({ language }) => {
         emailPlaceholder: 'E-posta Adresiniz',
         companyPlaceholder: 'Şirket',
         questionsPlaceholder: 'Ele almamızı istediğiniz konular veya sorularınız var mı? (isteğe bağlı)',
-        submit: 'İlgimi Bildir',
+        submit: 'Gönder',
         submitting: 'Kaydediliyor...',
         success: 'İlginiz için teşekkürler! Web semineri detaylarıyla yakında sizinle iletişime geçeceğiz.',
         error: 'Bir hata oluştu. Lütfen tekrar deneyin.',
@@ -97,7 +97,8 @@ const WebinarLanding = ({ language }) => {
           email: formData.email,
           company: formData.company,
           questions: formData.questions,
-          language: language
+          language: language,
+          website: '' // Honeypot field - should always be empty
         })
       });
 
@@ -179,6 +180,16 @@ const WebinarLanding = ({ language }) => {
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
+              {/* Honeypot field - hidden from users, catches bots */}
+              <input
+                type="text"
+                name="website"
+                autoComplete="off"
+                className="hidden"
+                style={{ display: 'none' }}
+                tabIndex={-1}
+              />
+
               {status === 'error' && (
                 <div className="bg-red-50 border border-red-200 p-4 flex items-start space-x-3">
                   <AlertCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
