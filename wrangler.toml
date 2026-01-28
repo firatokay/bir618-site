@@ -1,0 +1,10 @@
+name = "bir618-site"
+compatibility_date = "2024-01-01"
+
+# D1 Database binding
+# After creating the database with: npx wrangler d1 create bir618-webinar
+# Replace <DATABASE_ID> with the actual database_id returned
+[[d1_databases]]
+binding = "DB"
+database_name = "bir618-webinar"
+database_id = "407a2e41-edc4-4240-adfe-935c45879510"

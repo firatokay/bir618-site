@@ -9,7 +9,8 @@ const PATH_MAP = {
   '/advisory': '/tr/danismanlik',
   '/approach': '/tr/yaklasim',
   '/about': '/tr/hakkimizda',
-  '/contact': '/tr/iletisim'
+  '/contact': '/tr/iletisim',
+  '/webinar': '/tr/webinar'
 };
 
 // Reverse map for Turkish to English
